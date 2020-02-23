@@ -1,0 +1,11 @@
+{% case include.type %}
+{% when 'todo' %}
+<div class="alert alert-danger">
+  <b>Warning!</b> This page is not finished.
+</div>
+{% when 'confirm' %}
+<div class="alert alert-warning">
+  <b>Warning!</b> This page has not yet been confirmed. It is possible that 
+  there are errors and that changes are made.
+</div>
+{% endcase %}

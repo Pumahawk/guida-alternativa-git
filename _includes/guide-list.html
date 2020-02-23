@@ -1,0 +1,10 @@
+<div class="top-30"></div>
+<h2><i class="title-icon material-icons">format_list_bulleted</i>All Guide</h2>
+<div class="list-group">
+  {% for guide in site.guides %}
+    <a class="list-group-item list-group-item-action"  href="{{guide.url | relative_url}}">
+      {{guide.title}}
+      {% if guide.alert %} <i class="material-icons text-warning">warning</i> {% endif %}
+    </a>
+  {% endfor %}
+</div>

@@ -1,0 +1,11 @@
+---
+---
+{% if site.baseurl != "" %}
+$baseurl: {{site.baseurl}};
+{% else %}
+
+$baseurl: "";
+{% endif %}
+@import "jekyll-doc";
+@import "bootstrap/bootstrap";
+@import "material-icons";

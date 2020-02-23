@@ -1,0 +1,10 @@
+<div class="top-30"></div>
+<h2><i class="title-icon material-icons">format_list_bulleted</i>{{site.data.home.allDocs.title}}</h2>
+<div class="list-group">
+  {% for doc in site.docs %}
+    <a class="list-group-item list-group-item-action" href="{{doc.url | relative_url}}">
+      {{doc.title}}
+      {% if doc.alert %} <i class="material-icons text-warning">warning</i> {% endif %}
+    </a>
+  {% endfor %}
+</div>

@@ -1,0 +1,9 @@
+intro: 
+  output: true
+  id: /docs/basic/Intro
+indexDocs:
+  output: true
+  title: Index documents
+allDocs:
+  output: true
+  title: All documents

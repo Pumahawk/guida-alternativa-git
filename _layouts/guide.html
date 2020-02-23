@@ -1,0 +1,14 @@
+---
+layout: wiki
+---
+{{ content }}
+
+<div class="list-group">
+  {% for docK in page.docs %}
+  {% assign doc = site.docs | where: "id", docK | first%}
+    <a class="list-group-item list-group-item-action"  href="{{doc.url | relative_url}}">
+      {{doc.title}}
+      {% if doc.alert %} <i class="material-icons text-warning">warning</i> {% endif %}
+    </a>
+  {% endfor %}
+</div>
