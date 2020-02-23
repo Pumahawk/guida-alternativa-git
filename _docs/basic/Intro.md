@@ -10,13 +10,14 @@ Spesso utiliziamo uno strumento senza conoscerlo fino in fondo. Continuiamo tutt
 Ho notato che questa e' la triste storia di Git, uno strumento che vine imposto come metodo di condivisione codice sorgente il quale il suo unico compito e' quello di caricare il proprio codice su un server. 
 Nonostante sia un compito semplice, capita spesso di essere bloccato con messaggi di errore tipo "attenzione, il tuo branch non e' allineato con quello del server" creando una frustrazione continua dello sviluppatore di turno.
 
-Ovviamente per superare questi poblemi basta documentarsi. Il [sito ufficiale di git](https://git-scm.com/) mette a disposizione una documentazione scritta benissimo grazie al quale e' possibile tutto quello che c'e' da sapere su questo programma. E' presente un libro da leggere completamente [online](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control), un [libro](https://www.amazon.it/Pro-Git-English-Scott-Chacon-ebook/dp/B01ISNIKES/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=) gratuito su amazon e una documentazione tecnica dei [singoli comandi](https://git-scm.com/docs).
+Ovviamente per superare questi problemi basta documentarsi. Il [sito ufficiale di git](https://git-scm.com/) mette a disposizione una documentazione scritta benissimo che contine tutto quello che c'e' da sapere su questo programma.
+E' presente un libro completamente [online](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control), un [libro](https://www.amazon.it/Pro-Git-English-Scott-Chacon-ebook/dp/B01ISNIKES/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=) gratuito su amazon e una documentazione tecnica dei [singoli comandi](https://git-scm.com/docs).
 
-Allora perche' leggere la guida alternativa a Git?
+Allora perche' leggere _La guida alternativa a Git_?
 
-Ovviamente se hai intenzione di leggere tutto il libro non ti servira proseguire oltre questa frase.
+Ovviamente se hai intenzione di leggere tutto il libro non ti servira' proseguire oltre questa frase.
 
-L'obbiettivo della guida non e' quello di insegnare git ad una persona che non lo conosce ma di far capire ad una persona che l'ha gia utilizzato che e' qualcosa di diverso.
+L'obbiettivo della guida non e' quello di insegnare git ad una persona che non lo conosce ma di far capire ad una persona che l'ha gia utilizzato che forse e' qualcosa di diverso rispetto a come l'ha inteso.
 
 Incominciamo con fare un elenco degli argomenti toccati in questa guida.
 
