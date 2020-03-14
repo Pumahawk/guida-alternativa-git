@@ -1,6 +1,6 @@
 ---
 layout: wiki
-# next_doc: /docs/basic/What is Jekyll.html
+next_doc: docs/basic/Informazioni su git.html
 title: Guida alternativa a git
 breadcrumb:
   - /guides/basic
