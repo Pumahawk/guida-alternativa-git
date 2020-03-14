@@ -5,5 +5,6 @@ description: >-
   description.
 docs: 
  - /docs/basic/Intro
+ - /docs/basic/Informazioni su git
 breadcrumb: true
 ---
