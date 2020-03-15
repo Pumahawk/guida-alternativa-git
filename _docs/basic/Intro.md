@@ -5,6 +5,9 @@ title: Guida alternativa a git
 breadcrumb:
   - /guides/basic
 ---
+
+# Guida alternativa a Git
+
 Spesso utiliziamo uno strumento senza conoscerlo fino in fondo. Continuiamo tutti i giorni ad utilizzare quelle poche funzionalita che lo strumento ci offre e per questo incominciamo a pensare che quello strumento abbia soltanto quella funzionalita'.
 
 Ho notato che questa e' la triste storia di Git, uno strumento che vine imposto come metodo di condivisione codice sorgente il quale il suo unico compito e' quello di caricare il proprio codice su un server. 
@@ -23,6 +26,8 @@ Incominciamo con fare un elenco degli argomenti toccati in questa guida.
 
 * Intruduzione a Git  
   Introduzione alternativa di Git, far capire che e' uno strumento potente che puo' affiancare il programmatore nello sviluppo della applicazione, alla pari del proprio editor di testo e non e' uno strumento secondario.
+* Un semplice metodo di versioning senza software per il versioning  
+  Per aiutarci a capire la varsatilita di git immaginiamo di occuparci manualmente del versioning di un progetto. Creaiamo un archivio di backup, ripristiniamolo, creiamo semplici script per in mente un sistema con cui fare delle associazioni alle funzionalita di Git.
 * __Dimentichiamoci__ delle repository __remote__ e dei __branch__  
   Questo puo' sembrare assurdo per molte persone. Se non conosci git e svn e se non sai di cosa si sta parlando con __remote__ o __branch__ allora __MEGLIO COSI__. Questi elementi portano a creare dei preconcetti che ci limitano nell'apprendere cio' che realmente e' importante quando si utilizza git.
 * Commitiamo  
