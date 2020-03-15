@@ -22,3 +22,28 @@ Facciamo un breve elenco prima di iniziare la guida __alternativa__ (soprattuto 
 * log - vedere la storia delle nostre modifiche
 
 Sono centinaia i comandi di Git che possono tornare utili. E' inutile elencarli tutti in questo momento. Non si riuscirebbe a capire realmente la loro utilita'.
+
+## Condivisione del codice sorgente
+
+Una funzionalit' di Git che voglio che dimentichiate per il momento e' la possibilita' di condividere le proprie modfiche con altri sviluppatori.
+
+Ma se voglio che voi la dimentichiate perche io ne sto parlando? Questo perche e' la funzionalita piu utilizzata da tutti i programmatori e quindi non posso fare finta che non esista. Se un programmatore inizia a lavorare su un progetto configurato con Git allora sara la prima cosa che gli verra spiegata.
+
+Come ho spiegato precedentemente, git permette di vedere lo storico delle proprie modifiche, inoltre permette di caricare le proprie modifiche su un server in modo che tutti i programamtori possano sincronizzarsi. Questa funzionalita e' alla base del lavoro in team e nonostante sia soltanto una funzionalita, con il tempo e' diventato l'unico motivo per cui si utilizza questo strumento.
+
+Cerchiamo di introdurre un po' di tecnicismi giusto per avere una idea di cosa si sta parlano. Ovviamente questi argomenti saranno ripresi quando si affrontera l'argomento della __condivisione del codice sorgente__
+
+* __Repository__ - Termine utilizzato per indicare il server utilizzato per sincronizzare le modifiche
+* __push__ - Comando di Git usato per inviare al server le modifiche
+* __pull__ - Comando di Git usato per recuperare le modifiche dal server
+
+Se sei espero di Git, sicuramente avrai storto il naso nel leggere che con __repository__ si intende un server e che __pull__ recupera le modfiche. Purtroppo non e' ancora arrivato il momento di spiegare che cosa succede usando __pull__ e cosa sono le __repository__.
+{:.alert .alert-info}
+
+## Usare git come strumento di sviluppo
+
+Ora che sappiamo a grandi linea di cosa si tratta Git cerchiamo di approfondire di piu' l'argomento.
+
+Ancora oggi, dopo anni dalla prima versione, gli sviluppatori lo utilizzando per condivide il proprio codice sorgente con altri sviluppatori.
+
+Mediamente, l'utilizzo tipo di git per un programmatore consiste nell'accendere il proprio PC a inizio giornata, sincronizzarsi con le
