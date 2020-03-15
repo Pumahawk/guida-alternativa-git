@@ -36,14 +36,32 @@ Cerchiamo di introdurre un po' di tecnicismi giusto per avere una idea di cosa s
 * __Repository__ - Termine utilizzato per indicare il server utilizzato per sincronizzare le modifiche
 * __push__ - Comando di Git usato per inviare al server le modifiche
 * __pull__ - Comando di Git usato per recuperare le modifiche dal server
+* __commit__ - Comando di Git usato per salvare le modifiche
 
 Se sei espero di Git, sicuramente avrai storto il naso nel leggere che con __repository__ si intende un server e che __pull__ recupera le modfiche. Purtroppo non e' ancora arrivato il momento di spiegare che cosa succede usando __pull__ e cosa sono le __repository__.
 {:.alert .alert-info}
 
 ## Usare git come strumento di sviluppo
 
-Ora che sappiamo a grandi linea di cosa si tratta Git cerchiamo di approfondire di piu' l'argomento.
-
 Ancora oggi, dopo anni dalla prima versione, gli sviluppatori lo utilizzando per condivide il proprio codice sorgente con altri sviluppatori.
 
-Mediamente, l'utilizzo tipo di git per un programmatore consiste nell'accendere il proprio PC a inizio giornata, sincronizzarsi con le
+Mediamente, l'utilizzo tipo di git per un programmatore consiste nell'accendere il proprio PC a inizio giornata, sincronizzarsi con la repository remota, lavorare al proprio progetto, __committare__, inviare le modifiche al server.
+
+Nella maggior parte dei giorni si ha a che fare con Git soltanto 2 volte nell'arco di tutta la giornata e questo e' davvero un pecchato.
+
+### Casi d'uso di Git 
+
+Vediamo come Git puo' tornarci utile in diversi casi reali di problematiche che possono accadere durante lo sviluppo di una applicazione.
+
+Molti casi non verranno affrontati in questa parte della guida. Voglio soltanto che vi rendiate conto che molto problemi possono essere risolti utilizzando Git. Piu avanti vedremo come si risolvono.
+{:.alert .alert-info}
+
+Ad ogni problema segue una possibile soluzione, in modo da permettere ai lettori che gia' utilizzano Git nel poter immaginare come poterlo risolvere. Ogni comando citato verra' ripreso nei capitoli dedicati.
+{:.alert .alert-info}
+
+#### Procedere per piccoli step
+
+Puo' capitarci che dobbiamo lavorare realizzando piccole modifiche e che ogni modificha va testata. Realizzare una modifica possiamo impiegare soltanto una ventina di minuti ma potrebbe coinvolgere molti file e abbiamo il dubbio che cio' che stiamo realizzando non sia la scelta migliore.
+Puo' succedere che dopo una modifica ci rendiamo conto che non abbiamo ottenuto l'effetto desiderato e vogliamo poter annullare le ultime modifiche. Con git possiamo salvare lo stato di una modifica e poterlo ripristinare velocemente.
+
+> Non c'e' nemmeno bisogno di committare. Basta usare l'__index__ per salvare lo stato del progetto ad ogni modifica. Per aggiungere i file all'index basta usare il comando __add__ e per ripristinare le modifiche basta usare il comando __checkout --__.
